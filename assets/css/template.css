@@ -1,0 +1,245 @@
+body {
+  background-color: #f3f5fc;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.barra_cabeçalho {
+  background-color: #144272;
+  width: 100%;
+  height: 100px;
+  max-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+h1{
+  position: absolute;
+  left: 0%;
+  top: 56px;
+  margin-left: 15%;
+  font-family: 'Share Tech Mono', monospace;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 30px;
+  transform: translateY(-50%);
+  display: inline;
+}
+
+.barra_cabeçalho img{
+  margin-left: 45%;
+}
+h2 {
+  position: absolute;
+  right: 0%;
+  top: 56px;
+  margin-right: 20%;
+  font-family: 'Share Tech Mono', monospace;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 30px;
+  transform: translateY(-50%);
+  display: inline;
+
+}
+
+#txtEntrada:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+#txtEntrada::-webkit-input-placeholder {
+  font-size: 25px;
+  color: #1066a0;
+}
+
+.quadros_textos {
+  display: flex;
+  justify-content: center;
+}
+
+
+#txtEntrada {
+  line-height: 1.5;
+  border: 0px white;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 15%;
+  text-align: justify;
+  resize: none;
+  background-color: #f3f5fc;
+  font-size: 25px;
+  display: inline-block;
+}
+
+#txtEntrada textarea {
+  align-items: center;
+}
+
+.painelResultado {
+    width: 500px;
+    height: 780px;
+    margin-top: 4%;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+.painelResultado button{
+margin-top: 15000px;
+}
+  
+#nenhumaMessagem{
+padding: 100px
+}
+
+#nenhumaMessagem img {
+max-width: 300px;
+height: auto;
+}
+
+#nenhumaMessagem span{
+  font-size: 21px;
+  font-weight: bold
+}
+
+h4{
+  font-size: 19px;
+  text-align: center;
+}
+
+
+.button_code {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left:23%;
+}
+
+#alerta {
+  margin-left: 25%;
+  margin-bottom: 35px;
+  color: #1066a0;
+  font-size: 20px;
+}
+
+.copiar {
+  display: flex;
+}
+
+.codificar,
+.decodificar,
+.copiar,
+.btn_copiar {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-color: #3498db;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+  box-shadow: 0 0 40px 40px #144272 inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+#copiar{
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-color: #3498db;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+  box-shadow: 0 0 40px 40px #144272 inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  
+}
+
+.footer_copy {
+  text-align: center;
+  background-color: #144272;
+  width: 100%;
+  height: 80px ;
+  margin-top: 70px;
+  display: inline-block;
+  }
+
+.footer_copy img{
+  max-width: 35px;
+  max-height: auto;
+  padding-right: 50px;
+  margin-top: 8px;
+}
+
+#desenvolvimento{
+  position: absolute;
+  left: 25%;
+  bottom: 0%;
+  right: 25%;
+  font-family: 'Share Tech Mono', monospace;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 15px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+    <script src="assets/js/main.js"></script>
+    <title>Codificador</title>
+  </head>
+
+  <body>
+    <header>
+        <div class="barra_cabeçalho">
+          <div class="titulo_alura"><h1>Alura One Oracle</h1></div>
+            <img src="assets/images/ONE_logo_rgb.png" id="one">
+          <div class="titulo"><h2>De Codificador</h2></div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="quadros_textos">
+        <textarea id="txtEntrada" rows="20" cols="45" placeholder="Digite aqui seu texto"></textarea>
+        <div class="area2"></div>
+        <div class="painelResultado">
+          <div id="comMensagem" style="visibility:hidden">
+            <p id="txtResultado"></p>
+            <button id="copiar" onclick="copiar()">copiar</button></div>
+          <div id="nenhumaMessagem">
+            <img src="assets/images/logoSearch.svg" alt="menina segurando lupa" id="menina_lupa">
+            <span>Nenhuma mensagem encontrada</span>
+            <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
+          </div>
+        </div>
+      </div>
+      <div id="alerta">
+        <p><b>&#10082</b> Apenas letras minúsculas e sem acento!</p>
+      </div>
+      <div class="button_code">
+        <button class="codificar" onclick="codificar()">Codificar</button>
+        <button class="decodificar" onclick="decodificar()">Decodificar</button>
+      </div>
+    </section>
+
+        <footer>
+      <div class="footer_copy">
+        <a href="https://github.com/Thiagoqdev" target="_blank"><img src="assets/images/git-hub.png" alt="Logo do GitHub"></a>
+        <a href="https://www.linkedin.com/in/thiago-queiroz-addev/" target="_blank"><img src="assets/images/linkedin-37-151078.png" alt="Logo do Linkedin"></a>
+        <a href="https://www.instagram.com/thiago.qrz/" target="_blank"><img src="assets/images/1384063.png" alt="Logo do Instagram"></a>
+        <div id="desenvolvimento">
+          @2023 - Desenvolvido por Thiago Queiroz | Progrma ONE - Oracle Next Education |
+        </div>
+    </div>
+    </footer>
+  </body>
+</html>

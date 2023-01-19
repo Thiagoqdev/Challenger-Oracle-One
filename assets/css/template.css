@@ -44,7 +44,6 @@ h2 {
   font-size: 30px;
   transform: translateY(-50%);
   display: inline;
-
 }
 
 #txtEntrada:focus,
@@ -58,6 +57,7 @@ select:focus {
 #txtEntrada::-webkit-input-placeholder {
   font-size: 25px;
   color: #1066a0;
+  text-align: center;
 }
 
 .quadros_textos {
@@ -65,14 +65,13 @@ select:focus {
   justify-content: center;
 }
 
-
 #txtEntrada {
   line-height: 1.5;
   border: 0px white;
   border-radius: 20px;
   margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 15%;
+  margin-left: 13%;
+  margin-right: 20%;
   text-align: justify;
   resize: none;
   background-color: #f3f5fc;
@@ -85,30 +84,50 @@ select:focus {
 }
 
 .painelResultado {
-    width: 500px;
-    height: 780px;
-    margin-top: 4%;
-    background: #ffffff;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-    text-align: justify;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-  }
-
-.painelResultado button{
-margin-top: 15000px;
+  width: 500px;
+  max-width: 500px;
+  height: 780px;
+  margin-top: 4%;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 20px;
 }
-  
+
+.painelResultado textarea{
+  width:480px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: justify;
+  font-size: 20px;
+  padding: 10px;
+  resize: none;
+  border: 0px white;
+  position: absolute;
+  top: 18%;
+  right: 14%;
+}
+
+#txtResultado:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
 #nenhumaMessagem{
-padding: 100px
+  padding: 100px;
+
 }
 
 #nenhumaMessagem img {
-max-width: 300px;
-height: auto;
+  max-width: 300px;
+  height: auto;
 }
 
 #nenhumaMessagem span{
@@ -121,16 +140,15 @@ h4{
   text-align: center;
 }
 
-
 .button_code {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  margin-left:23%;
+  margin-left:25%;
 }
 
 #alerta {
-  margin-left: 25%;
+  margin-left: 28%;
   margin-bottom: 35px;
   color: #1066a0;
   font-size: 20px;
@@ -212,8 +230,7 @@ button:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
   box-shadow: 0 0 40px 40px #144272 inset, 0 0 0 0 #3498db;
   -webkit-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
-  
+  transition: all 150ms ease-in-out; 
 }
 
 .footer_copy {
@@ -223,7 +240,7 @@ button:hover {
   height: 80px ;
   margin-top: 70px;
   display: inline-block;
-  }
+}
 
 .footer_copy img{
   max-width: 35px;

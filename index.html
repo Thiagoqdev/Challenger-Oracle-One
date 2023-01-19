@@ -21,17 +21,17 @@
 
     <section>
       <div class="quadros_textos">
-        <textarea id="txtEntrada" rows="20" cols="45" placeholder="Digite aqui seu texto"></textarea>
+        <textarea id="txtEntrada" rows="20" cols="35" placeholder="Digite aqui seu texto"></textarea>
         <div class="area2"></div>
         <div class="painelResultado">
-          <div id="comMensagem" style="visibility:hidden">
-            <p id="txtResultado"></p>
-            <button id="copiar" onclick="copiar()">copiar</button></div>
           <div id="nenhumaMessagem">
             <img src="assets/images/logoSearch.svg" alt="menina segurando lupa" id="menina_lupa">
             <span>Nenhuma mensagem encontrada</span>
             <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
           </div>
+          <div id="comMensagem" style="visibility:hidden">
+            <textarea id="txtResultado"></textarea>
+            <button id="copiar" onclick="copiar()">copiar</button></div>
         </div>
       </div>
       <div id="alerta">

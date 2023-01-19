@@ -39,20 +39,7 @@ function decodificar() {
   document.getElementById("txtResultado").innerHTML = palavra;
 }
 
-document.getElementById('copiar').addEventListener('click', copiar);
-
 function copiar(){
   document.querySelector("#txtResultado").select();
   document.execCommand("copy");
 }
-
-/*
-function copyText(text) {
-  const input = document.createElement('input');
-  input.setAttribute('value', text);
-  document.body.appendChild(input);
-  input.select();
-  document.execCommand('copy');
-  document.body.removeChild(input);
-}
-*/

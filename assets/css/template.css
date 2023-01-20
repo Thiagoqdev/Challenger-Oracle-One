@@ -239,7 +239,7 @@ button:hover {
   width: 100%;
   height: 80px ;
   margin-top: 70px;
-  display: inline-block;
+  
 }
 
 .footer_copy img{
@@ -250,10 +250,10 @@ button:hover {
 }
 
 #desenvolvimento{
-  position: absolute;
-  left: 25%;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
   bottom: 0%;
-  right: 25%;
   font-family: 'Share Tech Mono', monospace;
   color: coral;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;

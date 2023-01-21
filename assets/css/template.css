@@ -63,6 +63,7 @@ select:focus {
 .quadros_textos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #txtEntrada {

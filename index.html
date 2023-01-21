@@ -12,7 +12,7 @@
     <header>
         <div class="barra_cabeçalho">
           <div class="titulo_alura"><h1>Alura One Oracle</h1></div>
-            <img src="assets/images/ONE_logo_rgb.png" id="one">
+          <div class="one"><img src="assets/images/ONE_logo_rgb.png"></div>
           <div class="titulo"><h2>De Codificador</h2></div>
         </div>
       </div>
@@ -21,17 +21,16 @@
     <section>
       <div class="quadros_textos">
         <textarea id="txtEntrada" rows="20" cols="35" placeholder="Digite aqui seu texto"></textarea>
-        <div class="area2"></div>
         <div class="painelResultado">
           <div id="nenhumaMessagem">
-            <img src="assets/images/logoSearch.svg" alt="menina segurando lupa" id="menina_lupa">
-            <span>Nenhuma mensagem encontrada</span>
-            <h4>Digite um texto que você deseja criptografar ou descriptografar.</h4>
+            <img src="assets/images/logoSearch.svg" alt="menina segurando lupa" id="menina_lupa"><br><br><br>
+            <div class="span"><b> Mensagem não encontrada</b> <br>
+             um texto que você deseja criptografar ou descriptografar.</div>
           </div>
           <div id="comMensagem" style="visibility:hidden">
             <textarea id="txtResultado"></textarea>
             <button id="copiar" onclick="copiar()">copiar</button></div>
-        </div>
+          </div>
       </div>
       <div id="alerta">
         <p><b>&#10082</b> Apenas letras minúsculas e sem acento!</p>
